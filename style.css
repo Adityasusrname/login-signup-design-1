@@ -1,0 +1,106 @@
+
+.formContainer{
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    margin-top: 50px;
+}
+.login{
+    
+    width: 500px;
+    height: 500px;
+    background-color:black;
+    box-shadow: 10px 10px 10px red;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 100px;
+    
+    
+}
+.login:hover{
+   transform: translate(-5px,-5px);
+   transition-duration: 1s;
+   box-shadow: 15px 15px 15px red;
+}
+.signup{
+    
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    box-shadow: 10px 10px 10px red;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 10px;
+    
+}
+.signup:hover{
+    transform: translate(-5px,-5px);
+    transition-duration: 1s;
+    box-shadow: 15px 15px 15px red;
+ }
+ .loginHeadingContainer{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: wheat;
+
+ }
+ .signupHeadingContainer{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color:wheat;
+ }
+ .loginFormContainer{
+    display: flex;
+    flex-direction: column;
+    
+    
+ }
+ .signupFormContainer{
+    display: flex;
+    flex-direction: column;
+    
+    
+ }
+ .buttonDiv{
+    display: flex;
+    justify-content: center;
+    
+ }
+ h2{
+    margin: 0px;
+    margin-left: 5px;
+    font-size: 20px;
+    color:wheat;
+ }
+ input{
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    border: 1px solid red;
+    height: 25px;
+ }
+button{
+    background-color:wheat;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    
+}
+button:hover{
+    cursor: pointer;
+
+}
+#bio{
+    height: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow: hidden;
+    
+}
